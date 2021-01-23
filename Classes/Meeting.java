@@ -1,9 +1,5 @@
-public class Meeting {
+package Classes;
 
-    private String data;
-
-    public void checkInformationAboutMeeting()
-    {
-
-    }
+public interface Meeting {
+    String checkInformationAboutMeeting();
 }
